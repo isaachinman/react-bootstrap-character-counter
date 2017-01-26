@@ -1,0 +1,12 @@
+.form-group {
+  position: relative;
+}
+span.form-control-character-counter {
+  opacity: 0;
+  transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -webkit-transition: opacity .1s ease-in-out;
+}
+.form-control:focus + span.form-control-character-counter {
+  opacity: 1;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "react-bootstrap-character-counter",
+  "version": "1.0.0",
+  "description": "A character counter wrapper for react-bootstrap inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaachinman/react-bootstrap-character-counter.git"
+  },
+  "keywords": [
+    "react",
+    "react-bootstrap",
+    "bootstrap"
+  ],
+  "author": "Isaac <isaac@isaachinman.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaachinman/react-bootstrap-character-counter/issues"
+  },
+  "homepage": "https://github.com/isaachinman/react-bootstrap-character-counter#readme"
+}
