@@ -1,5 +1,9 @@
 # react-bootstrap-character-counter
 
+## Demo
+
+![](http://i.imgur.com/omP41Tg.gif)
+
 ## What is this?
 
 This component extends (well wraps, really) react-bootstrap form functionality to include a character counter on `input[type=text]` and textareas. The counter will only display on inputs that have a maxlength set, and displays the length of the current value
