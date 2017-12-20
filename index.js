@@ -1,5 +1,6 @@
 // Imports
-import React, { Component, PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
 // Styles
 const styles = {
@@ -14,7 +15,7 @@ const styles = {
   },
 }
 
-export default class CharacterCounter extends Component {
+export default class CharacterCounter extends React.Component {
 
   state = {
     valueLength: null,
@@ -36,9 +37,9 @@ export default class CharacterCounter extends Component {
     return (
       <div ref={div => this.container = div}>
         {children}
-        <span className='form-control-character-counter' style={style ? Object.assign({}, styles.counter) : styles.counter}>
+        <span className='form-control-character-counter' style={style ? Object.assign({}, styles.counter, style) : styles.counter}>
           {valueLength !== null && valueLength > 0 && maxLength &&
-            <span>{valueLength}/{maxLength}</span>
+            <span className='character-count'>{valueLength}/{maxLength}</span>
           }
         </span>
       </div>
