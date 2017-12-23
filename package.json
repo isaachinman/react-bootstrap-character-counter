@@ -4,7 +4,7 @@
   "description": "A character counter wrapper for react-bootstrap inputs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,35 @@
     "react-bootstrap",
     "bootstrap"
   ],
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.9 || ^15.3.0 || ^16.0"
+  },
   "author": "Isaac <isaac@isaachinman.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/isaachinman/react-bootstrap-character-counter/issues"
   },
-  "homepage": "https://github.com/isaachinman/react-bootstrap-character-counter#readme"
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setupTests.js"
+  },
+  "homepage": "https://github.com/isaachinman/react-bootstrap-character-counter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "@babel/preset-react": "^7.0.0-beta.35",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.0.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.0",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "regenerator-runtime": "^0.11.1"
+  }
 }
