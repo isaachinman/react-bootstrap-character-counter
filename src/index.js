@@ -45,7 +45,10 @@ export default class CharacterCounter extends React.Component {
       </div>
     )
   }
+}
 
+CharacterCounter.defaultProps = {
+  style: {},
 }
 
 CharacterCounter.propTypes = {
