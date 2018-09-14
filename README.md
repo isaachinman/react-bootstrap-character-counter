@@ -1,5 +1,7 @@
 # react-bootstrap-character-counter
 
+_Not actively supported, as I no longer use `react-bootstrap` in production. Any PRs to update/upgrade are welcomed._
+
 ## Demo
 
 ![](http://i.imgur.com/omP41Tg.gif)
